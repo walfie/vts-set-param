@@ -10,5 +10,6 @@ figment = { version = "0.10.6", features = ["json"] }
 serde = { version = "1.0.126", features = ["derive"] }
 serde_json = "1.0.64"
 structopt = "0.3.22"
-tungstenite = "0.15.0"
+tokio = { version = "1.13.0", features = ["macros"] }
+vtubestudio = "0.2"
 xdg = "2.2.0"
