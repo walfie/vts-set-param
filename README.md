@@ -1,5 +1,8 @@
 # vts-set-param
 
+> ⚠️ Please see [vtubestudio-cli](https://github.com/walfie/vtubestudio-cli)
+> for a more general-purpose CLI tool.
+
 CLI tool to register/set a VTube Studio custom parameter in a one-shot manner.
 The intent is for it to be callable by scripts that just want to set a
 parameter once, and don't need to maintain a persistent websocket connection.
